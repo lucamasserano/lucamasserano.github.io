@@ -37,19 +37,19 @@
                 <a href="https://mypage.unibocconi.eu/antoniolijoi/">Antonio Lijoi</a>.
               </p>
               <p>
-                I am broadly interested in statistics and machine learning. My current focus is on the following topics:
+                I am broadly interested in statistics and machine learning, with a current focus on the following topics:
                 <ul>
                   <li>
-                    <b>Uncertainty quantification in simulation-based inference:</b> develop new methods that allow to do inference on parameters of interest via confidence regions with robust statistical guarantees. 
-                    This line of work has many applications in different fields of science (e.g., high-energy physics, astronomy);
+                    Robust simulation-based inference;
                   </li>
-                  <br>
                   <li>
-                    <b>Learning under distribution shift:</b> develop techniques that can <i>(i)</i> detect and <i>(ii)</i> quantify the shift, and <i>(iii)</i> correct our models on the fly — when possible.
-                    Lately, I've also been working on these problems within a time series setting.
+                    Learning under distribution shift;
+                  </li>
+                  <li>
+                    Multiple hypothesis testing.
                   </li>
                 </ul>
-                At CMU, I am also part of the Statistical Methods for the Physical Sciences (<a href="https://www.stat.cmu.edu/stamps/">STAMPS</a>) group. My research has also been 
+                At CMU, I am part of the Statistical Methods for the Physical Sciences (<a href="https://www.stat.cmu.edu/stamps/">STAMPS</a>) group. My research has also been 
                 supported by the National Science Foundation (<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2020295&HistoricalAwards=false">grant #2020295</a>).
               </p>
               <p style="text-align:center">
@@ -123,7 +123,7 @@
               <a href="https://www.stat.cmu.edu/~mkuusela/">Mikael Kuusela</a>,
               <a href="https://www.stat.cmu.edu/~annlee/">Ann B. Lee</a>
               <br>
-              <em>Under revision (AISTATS)</em>, 2022
+              <em>AISTATS</em>, 2023
               <br>
               [
               <a href="https://arxiv.org/abs/2205.15680">paper</a>
@@ -136,6 +136,48 @@
               <p>
                 WALDO reframes the well-known Wald test and uses Neyman inversion to convert point predictions and posteriors from <i>any</i> prediction algorithm or posterior estimator 
                 to confidence sets with correct conditional coverage, even for finite observed sample sizes.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <tr onmouseout="ada_stop()" onmouseover="ada_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='ada_image'>
+                    <img src='images/ada_sampling2.png' width="160"></div>
+                  <img src='images/ada_sampling1.png' width="160">
+                </div>
+                <script type="text/javascript">
+                  function ada_start() {
+                    document.getElementById('ada_image').style.opacity = "1";
+                  }
+  
+                  function ada_stop() {
+                    document.getElementById('ada_image').style.opacity = "0";
+                  }
+                  ada_stop()
+                </script>
+              </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Adaptive sampling for probabilistic forecasting under distribution shift</papertitle>
+              <p></p>
+              <strong>Luca Masserano</strong>,
+              <a href="https://scholar.google.com/citations?user=i3UOvhYAAAAJ&hl=en">Syama Sundar Rangapuram</a>, 
+							<a href="https://scholar.google.de/citations?user=4LLHaikAAAAJ&hl=en">Shubham Kapoor</a>,
+              <a href="https://scholar.google.com/citations?user=D3yw4goAAAAJ&hl=de">Rajbir Singh Nirwan</a>,
+              <a href="https://youngsuk0723.github.io/">Youngsuk Park</a>
+              <a href="https://scholar.google.com/citations?user=19k2WQEAAAAJ&hl=de">Michael Bohlke-Schneider</a>
+              <br>
+              <em>NeurIPS 2022 Distribution Shifts Workshop (DistShift)</em>, 2022
+              <br>
+              [
+              <a href="https://www.amazon.science/publications/adaptive-sampling-for-probabilistic-forecasting-under-distribution-shift">paper</a>
+              ]
+              <p></p>
+              <p>
+                We present an adaptive sampling strategy that selects the part of the time series history that is relevant for forecasting. We achieve this by learning a discrete distribution over relevant time steps by Bayesian optimization. 
+                We instantiate this idea with a two-step method that is pre-trained with uniform sampling and then training a lightweight adaptive architecture with adaptive sampling.
               </p>
             </td>
           </tr>
@@ -155,7 +197,7 @@
 							<a href="http://www.rizbicki.ufscar.br/">Rafael Izbicki</a>,
               <a href="https://www.stat.cmu.edu/~annlee/">Ann B. Lee</a>
               <br>
-              <em>Under revision (JMLR)</em>, 2021
+              <em>Under revision</em>
               <br>
               [
               <a href="https://arxiv.org/abs/2107.03920">paper</a>
