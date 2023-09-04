@@ -32,25 +32,21 @@
               <p style="text-align:center">
                 <name>Luca Masserano</name>
               </p>
-              <p>I am a third-year PhD student in the Department of Statistics at Carnegie Mellon University, where I am fortunate to be advised by <a href="https://www.stat.cmu.edu/~annlee/">Ann B. Lee</a>. 
-                Before that, I pursued an M.Sc. in Statistics at Bocconi University in Milan (Italy), where I was advised by <a href="https://mypage.unibocconi.eu/igorpruenster/">Igor Pruenster</a> and 
-                <a href="https://mypage.unibocconi.eu/antoniolijoi/">Antonio Lijoi</a>.
+              <p>Hello! I am Luca, a PhD student in the Joint PhD Program in Statistics and Machine Learning at Carnegie Mellon University, where I am fortunate to be advised by 
+                <a href="https://www.stat.cmu.edu/~annlee/">Ann B. Lee</a> and <a href="http://www.cs.cmu.edu/~bapoczos/">Barnabás Póczos</a>. 
               </p>
               <p>
-                I am broadly interested in statistics and machine learning, with a current focus on the following topics:
-                <ul>
-                  <li>
-                    Robust simulation-based inference;
-                  </li>
-                  <li>
-                    Learning under distribution shift;
-                  </li>
-                  <li>
-                    Multiple hypothesis testing.
-                  </li>
-                </ul>
-                At CMU, I am part of the Statistical Methods for the Physical Sciences (<a href="https://www.stat.cmu.edu/stamps/">STAMPS</a>) group. My research has also been 
+                I am broadly interested in statistics and machine learning, with a current focus on robust and reliable simulation-based inference. I am also curious (and keen to learn more)
+                about uncertainty quantification, forecasting and optimization. At CMU, I am part of the Statistical Methods for the Physical Sciences (<a href="https://www.stat.cmu.edu/stamps/">STAMPS</a>) group. My research has also been 
                 supported by the National Science Foundation (<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2020295&HistoricalAwards=false">grant #2020295</a>).
+              </p>
+              <p>
+                I spent this summer as a Machine Learning Scientist Intern at AWS AI Labs in Berlin (Germany), working with <a href="https://scholar.google.com/citations?user=i3UOvhYAAAAJ&hl=en">Syama Sundar Rangapuram</a> and
+                <a href="https://lostella.github.io/">Lorenzo Stella</a> on integrating mixed-integer programs as differentiable blocks of end-to-end deep learning pipelines.
+              </p>
+              <p>
+                Before joining CMU, I obtained an M.Sc. in Data Science at Bocconi University in Milan (Italy), where I was advised by <a href="https://mypage.unibocconi.eu/igorpruenster/">Igor Pruenster</a> and 
+                <a href="https://mypage.unibocconi.eu/antoniolijoi/">Antonio Lijoi</a>.                
               </p>
               <p style="text-align:center">
                 <a href="mailto:lmassera@andrew.cmu.edu">Email</a> &nbsp/&nbsp
@@ -76,6 +72,10 @@
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         
         <ul>
+          <li>
+            <b>06/2023</b> - This summer I will again join the wonderful ML Forecasting team in Berlin (Germany), working on integrating combinatorial solvers into differentiable pipelines!
+          </li>
+          <br>
           <li>
             <b>01/2023</b> - The paper <em>“Simulation-Based Inference with WALDO: Confidence Regions by Leveraging Prediction Algorithms or 
               Posterior Estimators for Inverse Problems”</em>, has been selected as a winner of the 2023 ASA Physical and Engineering Sciences Student Paper Competition!
@@ -127,7 +127,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Selected Publications</heading>
+              <heading>Publications and Preprints</heading>
             </td>
           </tr>
         </tbody></table>
@@ -136,11 +136,36 @@
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
+                <img src='images/e2e_pipeline.png' width="140">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>End-to-end Learning of Mixed-Integer Programs via Stochastic Perturbations</papertitle>
+              <p></p>
+              <strong>Luca Masserano</strong>,
+              <a href="https://scholar.google.com/citations?user=i3UOvhYAAAAJ&hl=en">Syama Sundar Rangapuram</a>, 
+							<a href="https://lostella.github.io/">Lorenzo Stella</a>,
+              <a href="https://scholar.google.com.hk/citations?user=_JU-vN8AAAAJ&hl=en">Konstantinos Benidis</a>,
+              <a href="https://urosolia.github.io/">Ugo Rosolia</a>,
+              <a href="https://scholar.google.com/citations?user=19k2WQEAAAAJ&hl=de">Michael Bohlke-Schneider</a>
+              <br>
+              <em>In preparation</em>, 2023
+              <br>
+              <p>
+                We developed theory and methodology to embed arbitrary mixed-integer programs as differentiable blocks of deep learning pipelines via stochastic perturbations of the optimization inputs. 
+                We also proposed to exploit inluence functions to do sensitivity analysis on the combinatorial solvers and drive perturbations in the optimal direction.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
                 <img src='images/waldo.png' width="160">
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Simulation-Based Inference with WALDO: Confidence Regions by Leveraging Prediction Algorithms or 
+              <papertitle>Simulation-Based Inference with WALDO: Confidence Regions by Leveraging Prediction Algorithms and
                 Posterior Estimators for Inverse Problems</papertitle>
               <p></p>
               <strong>Luca Masserano</strong>,
@@ -151,7 +176,7 @@
               <br>
               <em>AISTATS</em>, 2023
               <br>
-              <strong>Winner of the 2023 ASA Physical and Engineering Sciences Student Paper Competition</strong>
+              <strong>Winner of the 2023 American Statistical Association SPES Student Paper Competition</strong>
               <br>
               [
               <a href="https://arxiv.org/abs/2205.15680">paper</a>
@@ -248,11 +273,33 @@
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
-              <heading>Employment</heading>
+              <heading>Experience</heading>
             </td>
           </tr>
         </tbody></table>
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/aws.jpeg' width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Amazon - AWS AI LABS</papertitle>
+              <br>
+              <i>Machine Learning Scientist Intern</i> 
+              <br>
+              <b>Manager:</b> <a href="https://lostella.github.io/">Lorenzo Stella</a>, <b>Mentor:</b> <a href="https://scholar.google.com/citations?user=i3UOvhYAAAAJ&hl=en">Syama Sundar Rangapuram</a>
+              <br>
+              June-August 2023, Berlin (Germany)
+              <p></p>
+              <p>
+                Developed theory and methodology to embed arbitrary mixed-integer programs as differentiable blocks of deep learning pipelines via stochastic perturbations of the optimization inputs. Proposed to exploit 
+                inluence functions to do sensitivity analysis on the combinatorial solvers and drive perturbations in the optimal direction.
+              </p>
+            </td>
+          </tr>
 					
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -314,41 +361,12 @@
               March-May 2019, Milan (Italy)
               <p></p>
               <p>
-                Exploited various statistical models to improve real-time detection (+50% achieved) of damaged integrated circuits produced in a semiconductor plant in southern Italy.
+                Exploited various statistical models to improve real-time detection of damaged integrated circuits produced in a semiconductor plant in southern Italy.
               </p>
             </td>
           </tr>
 					
         </tbody></table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Talks</heading>
-          </td>
-        </tr>
-      </tbody></table>
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        
-        <ul>
-          <li>
-            <b>August 10<sup>th</sup>, 2022</b> - Joint Statistical Meetings (<a href="https://ww2.amstat.org/meetings/jsm/2022/">JSM</a>), Washington, D.C. <br>
-            SESSION: Innovative Statistical Methods for Foundational Astrophysical Sciences. <br>
-            TITLE: Simulation-Based Inference with WALDO: Perfectly Calibrated Confidence Regions Using Any Prediction or Posterior Estimation Algorithm.
-          </li>
-          <br>
-          <li>
-            <b>May 9-13, 2022</b> - 5<sup>th</sup> Inter-experiment Machine Learning Workshop (<a href="https://indico.cern.ch/event/1078970/">IML</a>), CERN, Geneva. <br>
-            TITLE: Likelihood-Free Frequentist Inference for Calorimetric Muon Energy Measurement.
-            [
-            <a href="https://indico.cern.ch/event/1078970/contributions/4833280/attachments/2443529/4186711/talk.pdf">slides</a> 
-            / 
-            <a href="https://indico.cern.ch/event/1078970/contributions/4833280/attachments/2443529/4188128/GMT20220513-120234_Recording_1920x1080.mp4">recording</a>
-            ]
-          </li>
-        </ul>
-  
-      </tbody></table>
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
