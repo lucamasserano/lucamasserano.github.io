@@ -187,8 +187,9 @@
               ]
               <p></p>
               <p>
-                WALDO reframes the well-known Wald test and uses Neyman inversion to convert point predictions and posteriors from <i>any</i> prediction algorithm or posterior estimator 
-                to confidence sets with correct conditional coverage, even for finite observed sample sizes.
+                WALDO allows to exploit arbitrary prediction algorithms and posterior estimators to construct reliable confidence sets for parameters of interest in 
+                simulation-based inference, i.e. when the likelihood is intractable but we can sample from it. Confidence sets from WALDO are guaranteed to be valid at the 
+                correct coverage level without being overly conservative. In addition, one can still exploit prior knowledge to achieve tighter constraints.
               </p>
             </td>
           </tr>
@@ -258,11 +259,14 @@
               <a href="https://github.com/lee-group-cmu/lf2i">code</a>
               /
               <a href="https://lee-group-cmu.github.io/lf2i">docs</a>
+              /
+              <a href="data/LF2I_supplementary_material.pdf">supplementary material</a>
               ], <sup>*</sup><em>equal contribution</em>
               <p></p>
               <p>
-                This paper presents <i>(i)</i> a practical procedure for the Neyman construction of confidence sets, and <i>(ii)</i> diagnostics that estimate conditional coverage over the entire 
-                parameter space. Any method that defines a test statistic can leverage this machinery to create valid confidence sets and diagnostics without costly Monte Carlo samples.
+                In this work, we propose a unified and modular inference framework that bridges classical statistics and modern machine learning in SBI/LFI providing <i>(i)</i> a 
+                practical approach to the Neyman construction of confidence sets with frequentist finite-sample coverage for any value of the unknown parameters; and <i>(ii)</i> 
+                interpretable diagnostics that estimate the empirical coverage across the entire parameter space.
               </p>
             </td>
           </tr>
