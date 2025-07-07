@@ -32,19 +32,15 @@
               <p style="text-align:center">
                 <name>Luca Masserano</name>
               </p>
-              <p>Hello! I am Luca, a PhD student in the Joint PhD Program in Statistics and Machine Learning at Carnegie Mellon University, where I am fortunate to be advised by 
+              <p>Hello! I am Luca, a recent PhD graduate from the Joint PhD Program in Statistics and Machine Learning at Carnegie Mellon University, where I was fortunate to be advised by 
                 <a href="https://www.stat.cmu.edu/~annlee/">Ann B. Lee</a> and co-mentored by <a href="http://www.cs.cmu.edu/~bapoczos/">Barnabás Póczos</a>. 
               </p>
               <p>
-                I am broadly interested in statistics and machine learning, with a current focus on robust uncertainty quantification in likelihood-free settings: I develop 
-                methods with sound statistical guarantees leveraging modern machine learning (e.g., deep generative models) to quantify the uncertainty on parameters that govern complex physical processes. 
+                During my PhD, I focused on robust uncertainty quantification in likelihood-free settings: I developed methods with sound statistical guarantees leveraging modern machine learning (e.g., deep generative models) to quantify the uncertainty on parameters that govern complex physical processes. 
               </p>
               <p>
-                I have also been working on probabilistic forecasting and optimization during various internships, and I am keen on learning more about these topics too. At CMU, I am part of the Statistical Methods for the Physical Sciences (<a href="https://www.stat.cmu.edu/stamps/">STAMPS</a>) group. My research has been 
+                I have also been working on foundation models, probabilistic forecasting and optimization during various internships, and I am keen on learning more about these topics too. At CMU, I am part of the Statistical Methods for the Physical Sciences (<a href="https://www.stat.cmu.edu/stamps/">STAMPS</a>) group. My research has been 
                 supported by the National Science Foundation (<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2020295&HistoricalAwards=false">grant #2020295</a>) and by the CMU 2024 Presidential Fellowship for the Statistics Department.
-              </p>
-              <p>
-                I spent this summer as a Machine Learning Scientist Intern at AWS AI Labs in Santa Clara (CA), working on foundation models for time series forecasting.
               </p>
               <p>
                 Before joining CMU, I obtained an M.Sc. in Data Science (Statistics) at Bocconi University in Milan (Italy), where I was advised by <a href="https://mypage.unibocconi.eu/igorpruenster/">Igor Pruenster</a> and 
@@ -75,6 +71,12 @@
         
         <ul>
           <li>
+            <b>05/2025</b> I defended my thesis and succesfully completed my PhD in Statistics and Machine Learning at CMU! 
+            <br>I will join Meta as a Research Scientist in September.</a>
+      
+          </li>
+          <!-- <br>
+          <li>
             <b>07/2024</b> - Looking forward to attend ICML 2024 in Vienna, where I will be presenting our work on <a href="https://arxiv.org/abs/2402.05330">Classification under Nuisance Parameters and Generalized Label Shift in Likelihood-Free Inference </a>
 
           </li>
@@ -84,7 +86,7 @@
           </li>
           <br>
           <li>
-            <b>02/2024</b> - I will be at the SIAM Conference on Uncertainty Quantification in Trieste, Italy!
+            <b>02/2024</b> - I will be at the SIAM Conference on Uncertainty Quantification in Trieste, Italy! -->
           </li>
           <!--
           <br>
@@ -147,6 +149,45 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr>
+            <tr onmouseout="ada_stop()" onmouseover="ada_start()">
+              <td style="padding:-10px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='ada_image'>
+                    <img src='images/thesis2.png' width="200"></div>
+                  <img src='images/thesis1.png' width="200">
+                </div>
+                <script type="text/javascript">
+                  function ada_start() {
+                    document.getElementById('ada_image').style.opacity = "1";
+                  }
+  
+                  function ada_stop() {
+                    document.getElementById('ada_image').style.opacity = "0";
+                  }
+                  ada_stop()
+                </script>
+              </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Trustworthy Scientific Inference with Machine Learning</papertitle>
+              <p></p>
+              Luca Masserano, 2025
+              <br>
+              [ pdf: 
+              <a href="data/thesis_lowres.pdf">low-res</a>
+              /
+              <a href="https://kilthub.cmu.edu/articles/thesis/Trustworthy_Scientific_Inference_with_Machine_Learning/29169902">high-res (Kilthub)</a>
+              ]
+              <br>
+              <p>
+                In this dissertation, we introduce several novel techniques to leverage regression, classification, and generative models to construct 
+                confidence sets with strong statistical guarantees. The methods we develop allow one to derive confidence sets that are simultaneously (1) 
+                valid across the entire parameter space and in finite samples, (2) robust to prior probability shifts, (3) as precise as possible when prior 
+                knowledge aligns with the target distribution, and (4) computationally efficient. 
+              </p>
+            </td>
+          </tr>
           
           <tr>
             <tr onmouseout="ada_stop()" onmouseover="ada_start()">
@@ -215,7 +256,7 @@
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <img src='images/e2e_pipeline.png' width="140">
+                <img src='images/e2e_pipeline.png' width="160">
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
